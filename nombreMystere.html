@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var aDeviner = 42;
+        var valeurProposer = 0;
+        var nombreEssai = 0;
+
+        while (valeurProposer != aDeviner) {
+            valeurProposer = window.prompt("Entrez votre nombre :");
+            if (valeurProposer >100 || valeurProposer <0) {
+                window.alert("Le nombre n'est pas valable !");
+            }
+            if (valeurProposer < aDeviner) {
+                window.alert("Le nombre proposé est trop petit !");
+                nombreEssai++;
+            } else if (valeurProposer > aDeviner) {
+                window.alert("Le nombre proposé est trop grand !");
+                nombreEssai++;
+            }
+        }
+        window.alert("Bravo, vous avez réussi en " +nombreEssai+ " coups !");
+    </script>
+    
+</body>
+</html>
