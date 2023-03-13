@@ -1,4 +1,3 @@
-<!--
 DEBUT
     aDeviner = 42
     valeurProposer = 0
@@ -25,4 +24,3 @@ DEBUT
 
     Afficher "Bravo, vous avez réussi en" nombreEssai "coups"
 FIN
--->

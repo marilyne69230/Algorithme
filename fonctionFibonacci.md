@@ -1,4 +1,3 @@
-<!--
 DEBUT 
  
     fonction fibonacci(nombre)
