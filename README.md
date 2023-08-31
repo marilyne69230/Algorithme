@@ -1,1 +1,1 @@
-# Ex_Algorithmie
+# Apprendre la logique des algorithmes
